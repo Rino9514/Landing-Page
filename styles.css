@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.top {
+    display: flex;
+    flex:1;
+    align-items: center;
+    gap: 16px;
+}
+
+.top h1 {
+    font-size: 24px;
+    margin-right: auto;
+}  
