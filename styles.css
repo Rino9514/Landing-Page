@@ -76,7 +76,7 @@ button {
 .title {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 50px;
+    padding: 40px;
     text-align: center;
 }
 .content {
@@ -99,20 +99,21 @@ button {
     width: 100%;
     max-width: 150px;
 }
-.quote {
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex:1 ;
-    font-style: italic;
+    align-items: center;
     background-color: #e5e7eb;
+}
+
+.quote {
+    font-style: italic;
     color: #1f2937;
     font-size: 36px;
-    padding-left:510px;
-    padding-right:510px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin: 0px;
+    width: 820px;
+    padding: 80px;
 }
 
 .quote p {
@@ -123,6 +124,48 @@ button {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+
+.content-white {
+    display: flex;
+    justify-content: center;
+    background-color: #F9FAF8;
+    padding: 90px;
+}
+
+.content-blue {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 10px;
+}
+
+.content-blue h1 {
+    font-size: 26px;
+    width: 600px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-blue p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-blue button {
+    background-color: #3882F6;
+    color: #F9FAF8; 
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 8px 30px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 .footer {
